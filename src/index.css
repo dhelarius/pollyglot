@@ -1,0 +1,47 @@
+:root {
+  --primary-color: hsl(258,90%,66%);
+  --primary-light-color: hsl(255,92%,76%);
+  --primary-disabled: hsl(252,95%,85%);
+  --on-primary-color: hsl(0,0%,100%);
+  --secondary-color: hsl(43,96%,56%);
+  --text-surface-color: hsl(228, 19%, 95%);
+  --on-text-surface-color: hsl(0, 0%, 20%);
+  --error-color: hsl(0,95%,60%);
+  --error-light-color: hsl(0,95%,97%);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 390px;
+  min-height: 100vh;
+  background: hsl(0,0%,96%);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h1, 
+h2,
+h3 {
+  margin: 0;
+}
+
+input {
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: hsl(0,0%,0%,0);
+  cursor: pointer;
+}
